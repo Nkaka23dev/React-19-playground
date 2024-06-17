@@ -4,11 +4,13 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import MainLayout from "./loyouts/MainLayout";
-import Joke from "./component/useExample1/Joke";
+import Joke from "./component/use/useExample1/Joke";
+import Posts from "./component/use/useExample2/Posts";
+import Message from "./component/use/useExample3/Message";
 import Home from "./component/Home";
-import Posts from "./component/useExample2/Posts";
-import Message from "./component/useExample3/Message";
+import MainLayout from "./loyouts/MainLayout";
+import Form from "./component/action/Form";
+import AddToCart from "./component/action/AddToCart";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -18,6 +20,8 @@ export default function App() {
         <Route path="joke" element={<Joke />} />
         <Route path="posts" element={<Posts />} />
         <Route path="message" element={<Message />} />
+        <Route path="form" element={<Form />} />
+        <Route path="cart" element={<AddToCart />} />
       </Route>
     )
   );

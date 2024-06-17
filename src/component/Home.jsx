@@ -43,6 +43,31 @@ export default function Home() {
               </a>
             </div>
           </li>
+          <li className="bg-sky-100 px-4 space-y-1 py-5 rounded-md">
+            <div className="">
+              <h1 className="font-semibold">4) action example 1 </h1>
+              <p>handling form submition using action</p>
+            </div>
+            <div>
+              <a href="/form" className="text-blue-600 hover:text-blue-800">
+                View
+              </a>
+            </div>
+          </li>
+          <li className="bg-sky-100 px-4 space-y-1 py-5 rounded-md">
+            <div className="">
+              <h1 className="font-semibold">5) action example 2 </h1>
+              <p>
+                In this example we will do a more complex example to learn more
+                on action in for with react
+              </p>
+            </div>
+            <div>
+              <a href="/cart" className="text-blue-600 hover:text-blue-800">
+                View
+              </a>
+            </div>
+          </li>
         </ul>
       </nav>
     </div>
