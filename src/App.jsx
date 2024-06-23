@@ -11,6 +11,7 @@ import Home from "./component/Home";
 import MainLayout from "./loyouts/MainLayout";
 import Form from "./component/action/Form";
 import AddToCart from "./component/action/AddToCart";
+import Context from "./component/use/useExample4/Context";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="message" element={<Message />} />
         <Route path="form" element={<Form />} />
         <Route path="cart" element={<AddToCart />} />
+        <Route path="context" element={<Context />} />
       </Route>
     )
   );

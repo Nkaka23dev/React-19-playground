@@ -68,6 +68,23 @@ export default function Home() {
               </a>
             </div>
           </li>
+          <li className="bg-sky-100 px-4 space-y-1 py-5 rounded-md">
+            <div className="">
+              <h1 className="font-semibold">
+                5) use() hook replacing useContext example 2{" "}
+              </h1>
+              <p>
+                In this example we will use the use() hook to replace the
+                useContext hook and show how to use it while setting color theme
+                form light to dark.
+              </p>
+            </div>
+            <div>
+              <a href="/context" className="text-blue-600 hover:text-blue-800">
+                View
+              </a>
+            </div>
+          </li>
         </ul>
       </nav>
     </div>
